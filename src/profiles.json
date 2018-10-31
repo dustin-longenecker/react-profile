@@ -1,0 +1,18 @@
+[
+  {
+    "github": {
+      "url" : "github.com",
+      "image" : "/images/GitHub-Mark-64px.png"
+    },
+    "stackoverflow": {
+      "url" : "stackoverflow.com",
+      "image" : "/images/so-icon.png"
+    },
+    "linkedin": {
+      "url" : "linkedin.com",
+      "image" : "/images/linkedin.png"
+    },
+    "phone": "303-518-3555",
+    "email": "dl-dev@outlook.com"
+  }
+]

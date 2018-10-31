@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import ProjectCard from "./../ProjectCard";
+import ProjectCard from "../../components/ProjectCard";
 import projects from "../../projects.json";
 
 
@@ -10,6 +10,7 @@ class Portfolio extends Component {
   render() {
     return (
       <Fragment>
+        <div id="portfolio">
       {this.state.projects.map(project => (
         <ProjectCard
           id={project.id}
@@ -21,6 +22,7 @@ class Portfolio extends Component {
         />
 
       ))}
+      </div>
       </Fragment>
     )
   }

@@ -1,0 +1,19 @@
+
+#footer {
+  background-color:  #333333;
+  border-top: 10px solid #2F88CC;
+  text-align: left;
+}
+
+
+#contact-info2 ul li {
+  color: #999999;
+  list-style-type: none;
+  margin-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+#contact-info2 ul {
+  padding-top: 25px;
+  text-align: center;
+}

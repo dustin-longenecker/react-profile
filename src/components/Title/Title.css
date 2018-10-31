@@ -1,0 +1,28 @@
+
+#header {
+  background-color:  #333333;
+  border-bottom: 10px solid #2F88CC;
+  text-align: left;
+}
+#first-name {
+  color: #FFFFFF;
+}
+#last-name {
+  color: #2F88CC;
+}
+
+#contact-info ul li {
+  color: #999999;
+  list-style-type: none;
+  margin-left: 20px;
+  text-align: right;
+  display: inline-block;
+}
+#contact-info ul li img {
+  height: 40px;
+  width: 40px;
+}
+#contact-info ul {
+  padding-top: 25px;
+  text-align: right;
+}

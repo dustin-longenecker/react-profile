@@ -12,7 +12,7 @@ class Contact extends Component {
             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
           </div>
           <div className="form-group">
-            <label for="exampleInputPassword1">Password</label>
+            <label for="exampleInputPassword1">Message:</label>
             <input type="text" className="form-control" id="text" placeholder="Message"/>
           </div>
             <button type="submit" className="btn btn-primary">Submit</button>
