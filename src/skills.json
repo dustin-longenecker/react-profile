@@ -1,0 +1,42 @@
+[
+  {
+    "id": "front-end",
+    "skills": [
+        "html5",
+        "css3",
+        "less",
+        "sass",
+        "javascript",
+        "jquery",
+        "reactjs",
+        "vuejs",
+        "handlebars"
+      ]
+    },
+    {
+      "id": "back-end",
+      "skills": [
+        "mysql",
+        "mongodb",
+        "nodejs",
+        "c++",
+        "objC",
+        "java",
+        "python",
+        "php"
+      ]
+    },
+     {
+      "id": "other-skills",
+      "skills": [
+        "version control",
+        "oop design",
+        "communication",
+        "ux/ui design",
+        "gimp/adobe photoshop",
+        "postman",
+        "slack",
+        "database design"
+      ]
+    }
+]

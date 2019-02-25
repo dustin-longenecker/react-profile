@@ -3,10 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom';
-import ProjectCard from "./components/ProjectCard";
-import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import projects from "./projects.json";
 import Navbar from "./components/Navbar";
 import Portfolio from "./pages/Portfolio";
 import Home from "./pages/Home";
@@ -36,13 +33,15 @@ class App extends Component {
             />
           ))}
           <Navbar></Navbar>
-          <Wrapper>
+
+
+          <Fragment>
 
             <Route exact path={"/"} component={Home} />
             <Route exact path={"/Home"} component={Home} />
             <Route exact path={"/Portfolio"} component={Portfolio} />
             <Route exact path={"/Contact"} component={Contact} />
-          </Wrapper>
+          </Fragment>
           {this.state.profiles.map(info => (
             <Footer
               github={info.github}

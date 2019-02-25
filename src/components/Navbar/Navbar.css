@@ -1,0 +1,21 @@
+#navbar {
+  background-color: #2F88CC;
+}
+#navbar li a{
+  color: #333333;
+
+}
+#links {
+  margin-left: -15px;
+}
+#social{
+  float: right;
+}
+#social li {
+  margin: 3px 5px;
+
+}
+.social img {
+  height: 40px;
+  width: 45px
+}

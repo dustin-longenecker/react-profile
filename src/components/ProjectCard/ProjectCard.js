@@ -12,16 +12,21 @@ const ProjectCard = props => (
           <strong>{props.name}</strong>
         </li>
         <li>
-          <strong><a href={props.links.github}>Github</a></strong>
-        </li>
-        <li>
-          <strong><a href={props.links.heroku}>Website</a></strong>
-        </li>
-        <li>
-          <strong>technologyUsed: {props.links.technologyUsed}</strong>
-        </li>
+
+        {props.technologyUsed.map(tech => (
+
+          <span>{tech}  </span>
+      ))}
+    </li>
+    <li>
+      <div class="card-body">
+        <a href={props.links.github} class="card-link">Github</a>
+      <a href={props.links.heroku} class="card-link">Website</a>
+    </div>
+    </li>
       </ul>
     </div>
+
   </div>
 );
 

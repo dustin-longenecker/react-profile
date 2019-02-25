@@ -1,5 +1,7 @@
-import React, { Component, Fragment } from "react";
+import React, { Component} from "react";
 import ProjectCard from "../../components/ProjectCard";
+import Wrapper from "../../components/Wrapper";
+
 import projects from "../../projects.json";
 
 
@@ -9,7 +11,7 @@ class Portfolio extends Component {
   };
   render() {
     return (
-      <Fragment>
+      <Wrapper>
         <div id="portfolio">
       {this.state.projects.map(project => (
         <ProjectCard
@@ -23,7 +25,7 @@ class Portfolio extends Component {
 
       ))}
       </div>
-      </Fragment>
+      </Wrapper>
     )
   }
 };

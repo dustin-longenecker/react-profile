@@ -1,3 +1,8 @@
-.info {
-  background-color: #ECF2F5;
+
+#maindiv{
+  background-color: green;
+  text-align: center;
 }
+ul li{
+  list-style-type: none;
+};

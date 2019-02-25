@@ -9,9 +9,10 @@ const Footer = props => (
     <div className="row">
       <div id="contact-info2" className="col-md-12">
         <ul>
-          <li><a href=""><img src={props.github.image} alt="github"/></a></li>
-          <li><a href=""><img src={props.stackoverflow.image} alt="stackoverflow"/></a></li>
-          <li><a href=""><img src={props.linkedin.image} alt="linkedin"/></a></li>
+          <li>
+            <a href={props.github.url}><img src={props.github.image} alt={props.name}/></a>
+            <a href={props.stackoverflow.url}><img src={props.stackoverflow.image} alt={props.name}/></a>
+            <a href={props.linkedin.url}><img src={props.linkedin.image} alt={props.name}/></a></li>
 
           <li>{props.phone}</li>
           <li>{props.email}</li>

@@ -1,15 +1,15 @@
 [
   {
     "github": {
-      "url" : "github.com",
+      "url" : "https://github.com/dustin-longenecker",
       "image" : "/images/GitHub-Mark-64px.png"
     },
     "stackoverflow": {
-      "url" : "stackoverflow.com",
+      "url" : "https://stackoverflow.com/users/10116713/d-l?tab=profile",
       "image" : "/images/so-icon.png"
     },
     "linkedin": {
-      "url" : "linkedin.com",
+      "url" : "https://www.linkedin.com/in/dustinlongenecker/",
       "image" : "/images/linkedin.png"
     },
     "phone": "303-518-3555",
